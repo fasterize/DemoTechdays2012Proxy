@@ -33,7 +33,7 @@ var
 
           proxyResponse.on('data', function(chunk) {
             chunk = chunk.toString();
-            chunk = chunk.replace(/windows/gi, 'Linux');
+            chunk = chunk.replace(/windows/gi, 'fenetres');
             res.write(chunk);
           });
 
